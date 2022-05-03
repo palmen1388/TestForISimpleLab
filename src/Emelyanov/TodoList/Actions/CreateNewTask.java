@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
 
-public class CreateNewTask extends Action {
+public class CreateNewTask implements Action {
 
     private Scanner scanner = new Scanner(System.in);
     private String name;

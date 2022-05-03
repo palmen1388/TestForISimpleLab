@@ -4,17 +4,15 @@ import Emelyanov.TodoList.Task.Task;
 
 import java.util.ArrayList;
 
-public class Action {
+public interface Action {
 
-    private String name;
+    String name = null;
 
-    public String getName() {
+    default String getName() {
         return name;
     }
 
-    public void doAction(ArrayList <Task> taskList) {
-
-    }
+    void doAction(ArrayList <Task> taskList);
 
 
 }

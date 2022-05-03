@@ -4,7 +4,7 @@ import Emelyanov.TodoList.Task.Task;
 
 import java.util.ArrayList;
 
-public abstract class Save extends Action {
+public abstract class Save implements Action {
 
 
     @Override

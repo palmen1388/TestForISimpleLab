@@ -5,7 +5,7 @@ import Emelyanov.TodoList.Task.Task;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class RemoveTask extends Action {
+public class RemoveTask implements Action {
 
     private Scanner scanner = new Scanner(System.in);
     private String name;

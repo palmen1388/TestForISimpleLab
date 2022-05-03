@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
-public class TagTaskLikeDone extends Action {
+public class TagTaskLikeDone implements Action {
 
     private Scanner scanner = new Scanner(System.in);
     private String name;

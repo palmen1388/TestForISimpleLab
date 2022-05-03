@@ -5,7 +5,7 @@ import Emelyanov.TodoList.Task.Task;
 
 import java.util.ArrayList;
 
-public class ShowTasks extends Action {
+public class ShowTasks implements Action {
 
     private String name;
 

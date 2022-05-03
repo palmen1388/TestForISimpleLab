@@ -6,7 +6,7 @@ import Emelyanov.TodoList.Task.TaskStatus;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class TagTaskLikeInProgress extends Action {
+public class TagTaskLikeInProgress implements Action {
 
     private Scanner scanner = new Scanner(System.in);
     private String name;
