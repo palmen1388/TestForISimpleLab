@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TodoList>
+<Task id="1">
+<header>9</header>
+<description>9</description>
+<priority>9</priority>
+<date>03-05-2022</date>
+<taskStatus>NEW</taskStatus>
+</Task>
+<Task id="2">
+<header>h1</header>
+<description>d1</description>
+<priority>0</priority>
+<date>03-05-2022</date>
+<taskStatus>DONE</taskStatus>
+<dateOfCompletion>03-05-2022</dateOfCompletion>
+</Task>
+<Task id="3">
+<header>h2</header>
+<description>d2</description>
+<priority>5</priority>
+<date>03-05-2022</date>
+<taskStatus>NEW</taskStatus>
+</Task>
+<Task id="4">
+<header>h3</header>
+<description>d3</description>
+<priority>10</priority>
+<date>03-05-2022</date>
+<taskStatus>IN_PROGRESS</taskStatus>
+</Task>
+</TodoList>
